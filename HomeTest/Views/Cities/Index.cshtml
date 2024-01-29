@@ -1,0 +1,39 @@
+﻿@model IEnumerable<HomeTest.Models.City>
+
+@{
+    ViewData["Title"] = "רשימת ישובים";
+}
+
+<script src="~/js/App.js"></script>
+<link href="~/css/style.css" rel="stylesheet" type="text/css" />
+
+
+<h1>רשימת ישובים</h1>
+
+<p>
+    <a asp-action="Create">יצירת ישוב חדש</a>
+</p>
+<input type="text" id="searchInput" onkeyup="searchFunc(event)" placeholder="חיפוש לפי ישוב..."/>
+<table class="table js_tableList">
+    <thead>
+        <tr>
+            <th class="sortable">
+                @Html.DisplayNameFor(model => model.Name)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td class="nameValue">
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.Id">עריכה</a> |
+                <a asp-action="Delete" asp-route-id="@item.Id">מחיקה</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

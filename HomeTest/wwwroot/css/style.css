@@ -1,0 +1,21 @@
+﻿.hidden {
+    display: none;
+}
+
+.sortable {
+    cursor: pointer;
+}
+
+.sortable.desc::after {
+    content: "▼";
+    color: currentcolor;
+    font-size: 100%;
+    top: 0;
+}
+
+.sortable.asc::after {
+    content: "▲";
+    color: currentcolor;
+    font-size: 100%;
+    top: 0;
+}
