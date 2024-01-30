@@ -19,6 +19,8 @@ Also has home screen with chosing to go for Cities and there it will give you a 
 
 ![image](https://github.com/synchoz/HomeTest/assets/45513321/54e46841-fb41-46dd-b436-b4ead8d2e5a2)
 
+![image](https://github.com/synchoz/HomeTest/assets/45513321/4dd4a9af-ba31-4d7b-bd2a-2ab1362526d4)
+
 ![image](https://github.com/synchoz/HomeTest/assets/45513321/16580ed7-d6bb-4d86-9c64-4f6fd00ae9f5)
 
 ![image](https://github.com/synchoz/HomeTest/assets/45513321/1a8ab3d2-e721-421e-945b-e46daba4743e)
